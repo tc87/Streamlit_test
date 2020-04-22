@@ -1,5 +1,17 @@
 import streamlit as st
 
+st.sidebar.markdown("## :rotating_light: [Current Release: 0.57.3](https://discuss.streamlit.io/t/version-0-57-0/2301)")
+st.sidebar.markdown("### **Highlights:**")
+st.sidebar.markdown("* Ability to set expiration options for st.cache'ed functions.")
+st.sidebar.markdown("* Improved the machinery behind st.file_uploader.")
+st.sidebar.markdown("### **To Install:**")
+st.sidebar.markdown("`pip install streamlit`")
+st.sidebar.markdown("### **To Upgrade:**")
+st.sidebar.markdown("`pip install --upgrade streamlit`")
+                        
+st.sidebar.markdown("**Note:**")
+st.sidebar.markdown("After installing, run `streamlit hello` in a terminal for our hello.py demo!")                                        
+
 st.markdown('# Welcome to Streamlit :wave:  ')
 st.markdown("Below are some helpful resources while you get started. If you have any questions don't hesitate to reach out on our [community forum](https://discuss.streamlit.io/)!")
 
